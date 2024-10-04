@@ -27,7 +27,6 @@ export default function Home() {
 
   return (
     <>
-      Lista de Cards com Map: <br />
       <div className="cards">
         {devmons.map(function (devmon) {
           return <Card key={devmon.nome} item={devmon} />
